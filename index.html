@@ -1,99 +1,129 @@
 <html>
-    <head>
-        <title>MPS</title>
-        <link rel='stylesheet' href='estilo.css'>
-        <meta name="viewport" content="width:device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
-            <div id="logodiv">
-                <img id="logo" src="imgs/logo.png" alt="Nossas Terras">
+
+<head>
+    <title>Educação de Qualidade - MPS</title>
+    <link rel='stylesheet' href='estilo.css'>
+    <meta name="viewport" content="width:device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div id="logodiv">
+            <img id="logo" src="imgs/logo.png" alt="Nossas Terras">
+        </div>
+        <ul id="menu" class="display dmenu">
+            <a href="#ods">
+                <li>ODS</li>
+            </a>
+            <a href="#gamificacao">
+                <li>Gamificação</li>
+            </a>
+            <a href="#mecanicas">
+                <li>Mecânicas</li>
+            </a>
+            <a href="#aplicativos">
+                <li>Aplicativos</li>
+            </a>
+            <a href="#sobre">
+                <li>Sobre</li>
+            </a>
+        </ul>
+    </header>
+    <section id="imgfundo" class="display">
+        <div id="text-title" class="display centralizado">
+            <h1 id="title">Educação de Qualidade</h1>
+            <h2 id="sbtitle">Através do 4º ODS e da Gamificação</h2>
+            <a id="action" href="https://nacoesunidas.org/pos2015/" target="blank">O que é um ODS?</a>
+        </div>
+    </section>
+    <section id="ods" class="display destaque">
+        <img id="img-ods" src="imgs/ods4p.png">
+        <div id="text-ods" class="justificado">
+            <h3 id="title-ods">A Educação Atual</h3>
+            <p>Infelizmente, o número de jovens e adultos que têm habilidades relevantes, inclusive competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo é muito baixo.</p>
+            <p>A meta 4.4 do 4º ODS pretende aumentar esse número até 2030. Uma das maneiras de alcançá-la é através da gamificação.</p>
+            <p>Para conhecer melhor o 4º ODS, assista ao vídeo feito pelo IBGE:</p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/htHKxLMIWrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="gamificacao" class="display destaquep">
+        <img id="img-gami" src="imgs/gami.jpg">
+        <div id="text-gami" class="centralizado">
+            <h3>Gamificação</h3>
+            <p class="justificado">É o uso das mecânicas dos jogos para melhorar o desempenho e facilitar o aprendizado de pessoas em matérias escolares ou outras situações, normalmente não relacionadas a jogos.</p>
+            <p class="justificado">A gamificação pode ser usada através de jogos já feitos ou explorada pelo educador através de certas dinâmicas com sua turma: o principal é ter pelo menos algumas das mecânicas dos jogos.</p>
+        </div>
+    </section>
+    <section id="mecanicas" class="display destaque">
+        <h3 id="title-mec">Mecânicas dos Jogos</h3>
+        <div id="mecs" class="display centralizado">
+            <div class="text-icon">
+                <img class="icons" src="imgs/placar.svg" alt="Sistema de pontos" />
+                <h4 class="title-icon">Sistema de Pontos</h4>
+                <p class="desc-icon">Pontua o aluno de acordo com o seu desempenho nas atividades</p>
             </div>
-            <ul id="menu">
-                <li><a href="#projeto">Projeto</a></li>
-                <li><a href="#selecao">Seleção</a></li>
-                <li><a href="#ecopontos">Ecopontos</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-            </ul>
-        </header>
-        <div id="imgfundo">
-            <h1 id="title">Nossas Terras</h1>
-            <h2 id="sbtitle">Saiba como contribuir com a agricultura sustentável e acabar com a fome</h2>
-            <a id="action" href="https://www.google.com" target="blank">Começar</a>
-        </div>    
-        <section id="projeto" class="destaque centralizado">
-            <div class="coluna c2">
-                <h3>Gamificação</h3>
-                <p class="centralizado">"É o uso das mecânicas baseadas em jogos, da sua estética e lógica para engajar as pessoas, motivar ações, promover a aprendizagem e resolver problemas"</p>
-                <p class="centralizado">Karl Kapp - 2012</p>
-                <p class="justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae libero nihil, beatae ex, dolor minima eaque rerum quis adipisci at quo sed itaque. Similique praesentium illum, harum corrupti odio saepe?</p>
-                <p class="justificado">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero recusandae eos facilis beatae dignissimos laboriosam nulla officiis quod ipsum molestiae illo magnam accusamus, exercitationem rem voluptatem explicabo laudantium ex reiciendis?</p>
+            <div class="text-icon">
+                <img class="icons" src="imgs/podio.svg" alt="Pódio" />
+                <h4 class="title-icon">Placares</h4>
+                <p class="desc-icon">Rankeia o Aluno pela maior quantidade de pontos adquiridos</p>
             </div>
-            <div class="coluna c2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XCAv79vZdVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="text-icon">
+                <img class="icons" src="imgs/bombear.svg" alt="Bomba com caveira" />
+                <h4 class="title-icon">Níveis de Dificuldade</h4>
+                <p class="desc-icon">Ajusta a dificuldade de acordo com o progresso de uma atividade ou matéria</p>
             </div>
-        </section>
-        <section id="selecao" class="centralizado">
-            <h3>Seleção</h3>
-            <div class="coluna c4">
-            <img class="icons" src="imgs/city.png" alt="Papéis" />
-                <h4>Papéis</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptate laborum animi ducimus fugiat cupiditate laboriosam aut, praesentium quas dicta molestiae laudantium qui obcaecati? Iste laboriosam temporibus a nihil asperiores?</p>
+            <div class="text-icon">
+                <img class="icons" src="imgs/relogio.svg" alt="Temporizador" />
+                <h4 class="title-icon">Restrição de Tempo</h4>
+                <p class="desc-icon">Limita o tempo das atividades</p>
             </div>
-            <div class="coluna c4">
-                <img class="icons" src="imgs/wellness.png" alt="Vidros" />
-                <h4>Vidros</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod at, et omnis laborum nam fuga dolores? Ducimus cum corporis eveniet nemo, delectus reiciendis voluptas fugiat. Laborum ex ullam eaque pariatur!</p>
+            <div class="text-icon">
+                <img class="icons" src="imgs/recompensa.svg" alt="Distintivo" />
+                <h4 class="title-icon">Badges (Distintivos)</h4>
+                <p class="desc-icon">Premia os alunos que se destacaram entre os demais</p>
             </div>
-            <div class="coluna c4">
-                <img class="icons" src="imgs/work.png" alt="Metais" />
-                <h4>Metais</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod at, et omnis laborum nam fuga dolores? Ducimus cum corporis eveniet nemo, delectus reiciendis voluptas fugiat. Laborum ex ullam eaque pariatur!</p>
+        </div>
+    </section>
+    <section id="aplicativos" class="display destaquep">
+        <h3 id="title-ex">Aplicativos que usam a Gamificação</h3>
+        <div id="apps" class="display">
+            <div class="display appdesc">
+                <img class="imgapp" src="imgs/duo.png" alt="Duolingo" />
+                <a href="https://pt.duolingo.com/" target="blank"><h4 class="appname">Duolingo</h4></a>
+                <p class="desc">Aplicativo de idiomas, que rankeia os alunos mais esforçados</p>
             </div>
-            <div class="coluna c4">
-                <img class="icons" src="imgs/money.png" alt="Plásticos" />
-                <h4>Plásticos</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod at, et omnis laborum nam fuga dolores? Ducimus cum corporis eveniet nemo, delectus reiciendis voluptas fugiat. Laborum ex ullam eaque pariatur!</p>
+            <div class="display appdesc">
+                <img class="imgapp" src="imgs/class.png" alt="ClassCraft" />
+                <a href="https://www.classcraft.com/pt/" target="blank"><h4 class="appname">ClassCraft</h4></a>
+                <p class="desc">Transforma qualquer disciplina em um jogo de role-play</p>
             </div>
-        </section>
-        <section id="ecopontos" class="destaque centralizado">
-            <h3 class="centralizado">Ecopontos</h3>
-            <p class="centralizado">Veja onde você pode levar os seus resíduos recicláveis</p>
-            <div class="coluna c3">
-                <img class="imgeco" src="imgs/img1.jpg" alt="Onda" />
-                <h4>Itacorubi</h4>
-                <p>Rodovia Admar Gonzaga, 72</p>
+            <div class="display appdesc">
+                <img class="imgapp" src="imgs/clube.png" alt="CLUBEaluno" />
+                <a href="https://www.clubealuno.com.br/" target="blank"><h4 class="appname">CLUBEaluno</h4></a>
+                <p class="desc">Aplicativo que rankeia e recompensa os melhores alunos</p>
             </div>
-            <div class="coluna c3">
-                <img class="imgeco" src="imgs/img2.jpg" alt="Tartaruga" />
-                <h4>Morros das Pedras</h4>
-                <p>Rua Francisco Vieira, 198, em frente à Padaria Moreira</p>
-            </div>
-            <div class="coluna c3">
-                <img class="imgeco" src="imgs/img3.jpg" alt="Praia" />
-                <h4>Canasvieiras</h4>
-                <p>Rua Desembargador Maurílio Coimbra</p>
-            </div>
-        </section>
-        <section id="sobre" class="centralizado">
-            <div class="coluna c2">
-                <h3>Sobre mim</h3>
-                <p>Joana da Silva</p>
-                <p class="justificado">Aenean porta, justo non aliquet interdum, risus nibh fringilla orci, nec lacinia justo sem a lorem. Pellentesque sagittis finibus risus, vitae viverra metus commodo quis. In sed elit cursus, tincidunt lectus vel, mattis dolor. Donec vel libero lobortis, cursus turpis a, scelerisque lorem.</p>
-            </div>
-            <div class="coluna c2">
-                <img width="100%" src="imgs/eu.jpg" alt="Uma mulher com notebook" />
-            </div>
-        </section>
-        <footer>
-            <div class="coluna c2">
-            <h3>Meu Primeiro Site</h3>
-            <p>Projeto desenvolvido durante o curso Meu Primeiro Site, promovido pela Junior Achievement Brasil e Microsoft.</p>
-            </div>
-            <div class="coluna c2">
-            <h3>Créditos</h3>
-            <p>Ícones de Freepik, logo de Logomark, imagens de ____</p>
-            </div>
-        </footer>
-    </body>
-</html> 
+        </div>
+    </section>
+    <section id="sobre" class="display destaque">
+        <div id="sbmim" class=" display justificado">
+            <h3 id="title-sbmim">Sobre mim</h3>
+            <p>Meu nome é Thiago Alexandre, tenho 16 anos e sou muito agitado.</p>
+            <p>Sou apenas mais um "alguém" em meio a tantos outros já existentes.</p>
+            <p>Ando em busca das belezas de se viver e acredito que a arte do "criar" é o que faz da natureza humana algo tão especial</p>
+            <p>Para mim, criar um site é como fazer uma representação digital da essência de uma pessoa, ou empresa.</p>
+        </div>
+        <img id="foto" src="imgs/eu.png" alt="Uma foto minha segurando uma câmera" />
+    </section>
+    <footer class="display drodape">
+        <div class="text-rodape">
+            <h3 class="title-rodape">Meu Primeiro Site</h3>
+            <p>Projeto desenvolvido durante o curso Meu Primeiro Site, promovido pela <a class="empresas" href="https://www.jabrasil.org.br/" target="blank"><b>JA Brasil</b></a> e <a class="empresas" href="https://www.microsoft.com/pt-br/" target="blank"><b>Microsoft</b></a>.</p>
+        </div>
+        <div class="text-rodape">
+            <h3 class="title-rodape">Créditos</h3>
+            <p>Logo autoral, Imagens retiradas do <a class="empresas" href="https://www.pexels.com/" target="blank"><b>Pexels</b></a>, Ícones retirados do <a class="empresas" href="https://www.flaticon.com/" target="blank"><b>Flaticon</b></a>.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
