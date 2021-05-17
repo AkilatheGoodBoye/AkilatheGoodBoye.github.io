@@ -8,14 +8,15 @@ body {
 .titles {
     font-size: 30pt;
     font-family: bahnschrift;
-    margin: 10px 0px;
+    margin: 10px 0px -15px;
 }
 
 .sub-titles {
     font-size: 20pt;
     font-family: bahnschrift light;
-    margin-bottom: 40px;
+    margin: 40px 0px;
 }
+
 
 h3, p {
     margin: 5px 0px;
@@ -58,4 +59,9 @@ button:focus {
 .pgraphs {
     font-size: 15pt;
     font-family: bahnschrift light;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
 }
